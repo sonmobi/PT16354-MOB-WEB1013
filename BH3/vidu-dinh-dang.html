@@ -29,14 +29,46 @@
             text-align: justify;
             padding: 10px;
         }
+        a:link{
+            color: green;
+            text-decoration: none;
+        }
+        a:visited{
+            color: grey; 
+        }
+        a:active{
+            color: yellow;
+        }
+        a:hover{
+            color: blue;
+            /* background-color: chartreuse; */
+            text-decoration: underline;
+        }
+        p:hover{
+            background-color: cyan;
+        }
+        #tieude:hover{
+            background-color: greenyellow;
+        }
+        #vd:hover{
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        #vd:active{
+            color:red ;
+        }
     </style>
 
 </head>
 <body>
-    <h1>Định dạng</h1>
+    <h1 id="tieude">Định dạng</h1>
+    <a href="#2">Liên kết</a>  
     <p>
         Metro Số 1, Vành đai 2, 3, cầu Thủ Thiêm 2, nút giao An Phú, vòng xoay Mỹ Thủy... là những dự án giao thông giúp TP Thủ Đức phát triển.
     </p>
 
+    <div id="vd">Đây là liên kết</div>
+    <br><br><br><br>
 </body>
 </html>
