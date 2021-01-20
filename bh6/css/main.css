@@ -1,0 +1,22 @@
+body{
+    margin: 0px; padding: 0px; background: #ccc;
+}
+#page{
+    width: 1000px;      background: #fff;
+    margin: 0px auto;
+}
+header{ 
+    height: 100px;   background: aqua;
+}
+nav{ background: blue; color: yellow;}
+article{
+    background: cyan; min-height: 300px;
+    width: 800px; float: left;
+}
+aside{
+    background: yellow; min-height: 300px;
+    width: 200px;float: left;
+}
+footer{ background-color: rgb(78, 78, 78);
+    min-height: 100px; clear: both;
+}
