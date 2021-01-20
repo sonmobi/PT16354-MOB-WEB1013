@@ -3,20 +3,23 @@ body{
 }
 #page{
     width: 1000px;      background: #fff;
-    margin: 0px auto;
+    margin: 0px auto; box-shadow: 0px 0px 15px rgb(107, 104, 104);
 }
 header{ 
-    height: 100px;   background: aqua;
+    height: 100px;   background: aqua; padding: 10px;
+    background: url('https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg');
+    background-size: 100%;
 }
-nav{ background: blue; color: yellow;}
+nav{ background: blue; color: yellow;   padding: 10px;}
 article{
-    background: cyan; min-height: 300px;
-    width: 800px; float: left;
+     min-height: 500px;
+    width: 800px; float: left; padding: 10px;   box-sizing: border-box;
 }
 aside{
-    background: yellow; min-height: 300px;
-    width: 200px;float: left;
+    background: yellow; min-height: 500px;
+    width: 200px;float: left; padding: 10px; box-sizing: border-box;
+
 }
 footer{ background-color: rgb(78, 78, 78);
-    min-height: 100px; clear: both;
+    min-height: 100px; clear: both; padding: 10px;
 }
