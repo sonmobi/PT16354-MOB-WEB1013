@@ -5,7 +5,14 @@
      overflow: hidden;  
      /*ẩn phần thẻ con thừa*/
      border-radius: 20px;
+
+     float: left;
+     margin: 10px;
 }
+.sp:hover{
+    box-shadow: 0px 0px 15px red;
+}
+
 .sp h2{
     margin: 5px 0px;
     text-align: center;
