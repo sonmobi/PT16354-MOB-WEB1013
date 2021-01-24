@@ -1,0 +1,43 @@
+.sp{
+    border: 1px solid red;
+    width: 220px;
+    height: 300px;
+     overflow: hidden;  
+     /*ẩn phần thẻ con thừa*/
+     border-radius: 20px;
+}
+.sp h2{
+    margin: 5px 0px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.sp .img-pro{
+    width: 150px;
+    margin: auto;  
+    display: block;  
+    position: relative;
+    z-index: 1;
+}
+.sp .img-spec{
+    position: relative;
+    top: -242px;
+    left: 150px;
+}
+.sp .price1{
+  position: relative;
+  top: -70px; 
+  text-decoration: line-through; 
+  padding-left: 10px;
+}
+.sp .price2{
+    position: relative;
+    top: -60px;
+    padding-left: 10px;     
+  }
+.sp .tool{
+    width: 30px;
+    position: relative;
+    top: -170px;
+    left: 180px;
+}
