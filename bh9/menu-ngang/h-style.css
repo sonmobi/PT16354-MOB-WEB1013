@@ -3,28 +3,32 @@
     background-color: cyan;
 }
 #h-menu ul{
-    list-style: none; padding: 0px;
+    list-style: none; padding: 0px; font-size: 5px;
 }
 #h-menu>ul>li{
     display: inline-block; /*menu ngang*/
 }
 #h-menu ul li{
-    width: 200px; position: relative; 
+    width: 200px; position: relative;
 }
 #h-menu ul li a{
     display: block; background-color: yellowgreen;
-    border: 1px solid red; text-decoration: none;
+    /* border: 1px solid red;  */
+    text-decoration: none;
     padding: 5px; color: blue;
     font-family: arial;
-    text-shadow: 0px 0px 5px red;
+    font-size: 15px;
+    /* text-shadow: 0px 0px 5px red; */
     /* border-radius: 10px; */
+    border-bottom: 1px solid red;
 }
 #h-menu>ul>li>a{
-    padding-left: 20px; 
+    text-align: center;
+    /* padding-left: 20px; 
     background-image: url("ic_arr.png");
     background-repeat: no-repeat;
     background-position-y: 6px;
-    background-size: 15px;
+    background-size: 15px; */
 }
 
 #h-menu ul li ul{
