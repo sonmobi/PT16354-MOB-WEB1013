@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{ display: block; margin-top: 10px;
+        font-weight: bold;}
+        button{
+            
+            background-image: url("ic_arr.png");
+            background-repeat: no-repeat;
+            background-size: 15px;
+            background-position-y: 5px;
+            background-position-x: 3px;
+            border-radius: 5px;
+            border: 1px solid rgb(88, 28, 252);
+            padding: 5px 5px 5px 20px;
+            color: blue;
+            background-color: rgb(155, 185, 241);
+        }
+        button:hover{
+            cursor: pointer;
+            color: red;
+            background-color: rgb(203, 220, 251);
+            border: 1px solid rgb(192, 173, 245);
+        }
+    </style>
+</head>
+<body>
+    <h2>Đăng ký tài khoản</h2>
+    <form action="" method="post" enctype="multipart/form-data">
+        <label>Username</label> 
+        <input type="text" name="username">
+        <label>Password</label>
+        <input type="password" name="password">
+        <label>Fullname</label>
+        <input type="text" name="fullname">
+        <label>Photo</label>
+        <input type="file" name="photo">
+        <hr>
+        <label>Giới tính</label>
+        <input type="radio" name="gioitinh"> Nam 
+        <input type="radio" name="gioitinh"> Nữ
+        <label>Sở thích</label>
+        <input type="checkbox"> Bóng đá <br>
+        <input type="checkbox"> Cầu lông <br>
+        <input type="checkbox"> Bóng bàn
+
+        <label >Môn học</label>
+        <select name="monhoc" multiple >
+            <option value="WEB1013">Xây dựng trang web</option>
+            <option value="WEB2013">Xây dựng trang web 2</option>
+            <option value="WEB3013">Xây dựng trang web 3</option>
+        </select>
+        <label >Ghi chú </label>
+        <textarea disabled readonly placeholder="Nhập ghi chú" name="ghichu" cols="30" rows="10"></textarea>
+        
+        <input type="email" placeholder="Nhập email" required>
+        <input type="date">
+        <hr>
+
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
